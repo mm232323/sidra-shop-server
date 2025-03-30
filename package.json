@@ -1,0 +1,24 @@
+{
+  "name": "sidra-honey-shop-server",
+  "version": "1.0.0",
+  "description": "Sidra Honey Shop for buying high quality honey products",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./dist/app.js",
+    "start": "nodemon ./dist/app.js",
+    "serve": "npx tsc --watch"
+  },
+  "author": "Mohammed Qurany Ibrahim",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.15.0",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1"
+  }
+}
